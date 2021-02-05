@@ -23,6 +23,7 @@ const morePerson = {
 }
 
 //The magic of bind: We can use any method of any object for other object;
+// We can do similar task by call more easily
 
 console.log(anyPerson.insurance(500));
 
@@ -36,3 +37,4 @@ const moreFullName = anyPerson.fullName.bind(morePerson);
 
 console.log(heroFullName());
 console.log(moreFullName());
+
